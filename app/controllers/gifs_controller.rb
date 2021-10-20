@@ -1,5 +1,6 @@
 class GifsController < ApplicationController
   before_action :set_gif, only: %i[ show edit update destroy ]
+  before_action :authenticate_user!
 
   # GET /gifs or /gifs.json
   def index
