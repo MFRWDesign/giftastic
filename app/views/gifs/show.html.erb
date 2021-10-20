@@ -10,5 +10,10 @@
   <%= @gif.user_id %>
 </p>
 
+<p>
+  <strong>Image:</strong>
+  <%= image_tag url_for(@gif.image) %>
+</p>
+
 <%= link_to 'Edit', edit_gif_path(@gif) %> |
 <%= link_to 'Back', gifs_path %>
