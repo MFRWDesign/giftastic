@@ -1,24 +1,7 @@
-# README
+# Giftastic Gif Sharing App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To install clone the repo, run `bundle install`, `yarn install`, `bundle exec db:create`.
 
-Things you may want to cover:
+To start your server, run: `bundle exec rails s`, and then open your browser to:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://localhost:3000/
