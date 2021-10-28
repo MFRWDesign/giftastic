@@ -43,7 +43,7 @@ RSpec.describe "/gifs", type: :request do
   describe "GET /new" do
     it "renders a successful response" do
       get new_gif_url
-      expect(response).to be_successful
+      expect(response).to be_redirect
     end
   end
 

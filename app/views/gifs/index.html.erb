@@ -26,5 +26,8 @@
 
 <br>
 
-<%= paginate @gifs %>
+<% if @gifs.present? %>
+  <%= paginate @gifs %>
+<% end %>
+
 <%= link_to 'New Gif', new_gif_path %>

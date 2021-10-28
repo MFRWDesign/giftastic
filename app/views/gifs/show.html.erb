@@ -12,7 +12,9 @@
 
 <p>
   <strong>Image:</strong>
-  <%= image_tag url_for(@gif.image) %>
+  <% if @gif.image.present? %>
+    <%= image_tag url_for(@gif.image) %>
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_gif_path(@gif) %> |
